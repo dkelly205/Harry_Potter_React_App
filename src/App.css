@@ -1,28 +1,39 @@
-.App {
+body{
+  background-color: #19181A;
+  color: #CEBc81;
+  height:100%;
+}
+
+.heading {
+  color:#CEBc81;
+  font-size: 6em;
+  text-align: center;
+  width: 40%;
+  margin:auto;
+  font-family: 'Permanent Marker', cursive;
+  /* background-image: url('hogwarts.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+}
+
+.dropDown{
+  width:20%;
+  height:40px;
+  background-color: #479761;
+  color: #19181A;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 0.2em;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+img{
+  width:50%;
+  height:200px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+.character{
+      width:20%;
+      margin:auto;
+      padding:20px;
+      display: inline-block;
+    }
